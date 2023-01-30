@@ -8,14 +8,15 @@ passwordEl.addEventListener('keypress', (e) => {
     e.preventDefault()
 })
 passwordEl.addEventListener('focus', (e) => {
-
+    navigator.clipboard.writeText(passwordEl.value)
 })
 
 const copyButton = document.createElement('button')
 copyButton.classList.add('copy-button')
 copyButton.innerText = 'Скопировать'
 copyButton.addEventListener('click', (e) => {
-    
+    passwordEl.select()
+    navigator.clipboard.writeText(passwordEl.value)
 })
 
 const generateBtn = document.createElement('button')
