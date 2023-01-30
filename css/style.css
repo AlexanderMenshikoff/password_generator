@@ -23,10 +23,41 @@ body {
 }
 
 .password {
+  padding: 8px;
+  margin: 8px;
+  caret-color: transparent;
+  cursor: pointer;
 }
 
 .copy-button {
+  padding: 8px;
+  background-color: rgb(240, 193, 150);
+  border-color: azure;
+  color: #000000;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  margin: 2px;
 }
 
 .generate-button {
+  padding: 8px;
+  background-color: rgb(240, 193, 150);
+  border-color: rgb(255, 255, 255);
+  color: #000000;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  margin: 2px;
+}
+
+.clear-button {
+  padding: 8px;
+  background-color: rgb(240, 193, 150);
+  border-color: rgb(255, 255, 255);
+  color: #000000;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  margin: 2px;
 }
