@@ -45,15 +45,10 @@ generateBtn.addEventListener('click', (e) => {
         alert('Вам необходимо убрать 0 из начала!')
         passwordCount.value = ''
 }
-
-    else if (passwordCount.value !== 'number'){
-        alert('Ввести можно только цифры!')
-        passwordCount.value = ''
-}
-
-    
+ 
 let password = generatePassword(passwordCount.value)
 passwordEl.value = password
+
 })
 
 

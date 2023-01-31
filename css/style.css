@@ -22,6 +22,23 @@ body {
   height: 100vh;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: small;
+}
+
+.password-count {
+  width: 50px;
+  margin-top: 5px;
+  background-color: rgb(255, 255, 255);
+  border: solid 0.5px #000000;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
 .password {
   padding: 8px;
   margin: 8px;
@@ -40,6 +57,11 @@ body {
   margin: 2px;
 }
 
+.copy-button:hover {
+  background-color: rgb(241, 119, 4);
+  color: #ffffff;
+}
+
 .generate-button {
   padding: 8px;
   background-color: rgb(240, 193, 150);
@@ -51,6 +73,11 @@ body {
   margin: 2px;
 }
 
+.generate-button:hover {
+  background-color: rgb(241, 119, 4);
+  color: #ffffff;
+}
+
 .clear-button {
   padding: 8px;
   background-color: rgb(240, 193, 150);
@@ -60,4 +87,9 @@ body {
   border: none;
   border-radius: 2px;
   margin: 2px;
+}
+
+.clear-button:hover {
+  background-color: rgb(241, 119, 4);
+  color: #ffffff;
 }
